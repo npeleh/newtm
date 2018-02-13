@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.style_header{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding: 80px 0;
+    color: blue;
+    background-color: cornflowerblue;
+}
+.box1, .box2, .box3{
+    width: 33%;
+    height: 400px;
+    display: inline-block;
+    background-color: palegreen;
+}
+.box2{
+    background-color: cornflowerblue;
+}
+button{
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    background-color: palegreen;
+}
+.header01{
+    background-color: pink ;
+    color: red;
+}
+.button01{
+    background-color: red ;
+    color: pink;
+}
+
+
+.header02{
+    background-color: cornflowerblue ;
+    color: palegreen;
+}
+.button02{
+    background-color: palegreen ;
+    color: cornflowerblue;
+}
+
+
+.header03{
+    background-color: goldenrod;
+    color: forestgreen;
+}
+.button03{
+    background-color: forestgreen;
+    color: goldenrod;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
