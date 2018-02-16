@@ -10,23 +10,23 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> </head>
 
 <body ng-controller="mainCtrl as ctrl">
-  <header class="style_header" id="style1">
+  <header class="style_header" id="style1" ng-class="ctrl.clicked">
       <h1>My Angular page</h1>
       <p>You can change style</p>
-      <button ng-click="ctrl.taskOne()" id="btn1">Style 1</button>
-      <button ng-click="ctrl.taskTwo()" id="btn2">Style 2</button>
-      <button ng-click="ctrl.taskThree()" id="btn3">Style 3</button>
+      <button ng-click="ctrl.taskOne()" ng-class="ctrl.clickedBox1">Style 1</button>
+      <button ng-click="ctrl.taskTwo()" class="btn2" ng-class="ctrl.clickedBox2">Style 2</button>
+      <button ng-click="ctrl.taskThree()"  ng-class="ctrl.clickedBox3">Style 3</button>
   </header>
    <div class="boxes">
-       <div class="box1" id="styleBox1">
+       <div class="box1" id="styleBox1" ng-class="ctrl.clickedBox1">
            <h2>Column 1</h2>
            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, quam. Voluptatum laborum qui quaerat earum laboriosam, nemo. Beatae sed delectus sequi praesentium fugiat quidem. Blanditiis dignissimos animi amet dolore ea.</p>
        </div>
-       <div class="box2" id="styleBox2">
+       <div class="box2" id="styleBox2" ng-class="ctrl.clickedBox2">
            <h2>Column 2</h2>
            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, quam. Voluptatum laborum qui quaerat earum laboriosam, nemo. Beatae sed delectus sequi praesentium fugiat quidem. Blanditiis dignissimos animi amet dolore ea.</p>
        </div>
-       <div class="box3" id="styleBox3">
+       <div class="box3" id="styleBox3" ng-class="ctrl.clickedBox3">
            <h2>Column 3</h2>
            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, quam. Voluptatum laborum qui quaerat earum laboriosam, nemo. Beatae sed delectus sequi praesentium fugiat quidem. Blanditiis dignissimos animi amet dolore ea.</p>
        </div>

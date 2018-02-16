@@ -11,22 +11,33 @@
     padding: 80px 0;
     color: blue;
     background-color: cornflowerblue;
+    color: palegreen;
+}
+.boxes{
+    display: flex;
 }
 .box1, .box2, .box3{
-    width: 33%;
-    height: 400px;
-    display: inline-block;
+    width: 34%;
+    min-height: 400px;
     background-color: palegreen;
+    color: cornflowerblue;
 }
 .box2{
     background-color: cornflowerblue;
+    color: palegreen;
+}
+.btn2{
+    background-color: cornflowerblue ;
+    color: palegreen;
 }
 button{
     width: 80px;
     height: 40px;
     line-height: 40px;
     background-color: palegreen;
+    color: cornflowerblue;
 }
+
 .header01{
     background-color: pink ;
     color: red;
